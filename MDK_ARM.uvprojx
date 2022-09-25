@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Application;.\Library\inc;.\CMSIS</IncludePath>
+              <IncludePath>.\Application;.\Library\inc;.\CMSIS;.\Logger</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -625,6 +625,16 @@
               <FileName>startup_stm32f40xx.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\CMSIS\startup_stm32f40xx.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Logger</GroupName>
+          <Files>
+            <File>
+              <FileName>ulog.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Logger\ulog.c</FilePath>
             </File>
           </Files>
         </Group>
